@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "Unable to log in to my account.",
+    "customer": "Rahim Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-10-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "My payment failed, but money was deducted.",
+    "customer": "Karim Hasan",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": 3,
+    "title": "Password Reset",
+    "description": "I did not receive the password reset email.",
+    "customer": "Nusrat Jahan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": 4,
+    "title": "App Not Loading",
+    "description": "The application gets stuck on the loading screen.",
+    "customer": "Sabbir Hossain",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-10-03"
+  },
+  {
+    "id": 5,
+    "title": "Update Email Address",
+    "description": "I want to change my registered email address.",
+    "customer": "Ayesha Rahman",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-10-03"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect Invoice",
+    "description": "The invoice contains an incorrect amount.",
+    "customer": "Tanvir Islam",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-29"
+  },
+  {
+    "id": 7,
+    "title": "Account Locked",
+    "description": "My account was locked after several login attempts.",
+    "customer": "Mim Akter",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2026-09-30"
+  },
+  {
+    "id": 8,
+    "title": "Refund Request",
+    "description": "I would like a refund for my recent purchase.",
+    "customer": "Fahim Chowdhury",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-28"
+  },
+  {
+    "id": 9,
+    "title": "Profile Update Error",
+    "description": "I cannot save changes to my profile.",
+    "customer": "Sadia Islam",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-09-27"
+  },
+  {
+    "id": 10,
+    "title": "Order Not Delivered",
+    "description": "My order has not arrived on the expected date.",
+    "customer": "Mehedi Hasan",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-26"
+  },
+  {
+    "id": 11,
+    "title": "Notification Problem",
+    "description": "I am not receiving account notifications.",
+    "customer": "Sumaiya Khan",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-09-25"
+  },
+  {
+    "id": 12,
+    "title": "Duplicate Charge",
+    "description": "My card was charged twice for the same order.",
+    "customer": "Arif Hossain",
+    "priority": "Critical",
+    "status": "In-Progress",
+    "createdAt": "2026-10-01"
+  },
+  {
+    "id": 13,
+    "title": "Mobile App Crash",
+    "description": "The mobile application crashes when opened.",
+    "customer": "Jannatul Ferdous",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-24"
+  },
+  {
+    "id": 14,
+    "title": "Subscription Cancellation",
+    "description": "Please help me cancel my subscription.",
+    "customer": "Nayeem Ahmed",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-09-23"
+  },
+  {
+    "id": 15,
+    "title": "Missing Order Details",
+    "description": "My order details are missing from the dashboard.",
+    "customer": "Farzana Yasmin",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-10-03"
+  }
+]

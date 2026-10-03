@@ -1,17 +1,24 @@
+import { Suspense } from "react";
 import "./App.css";
-import CustomerTicketsCard from "./components/CustomerTicketsCard/CustomerTicketsCard";
 import Footer from "./components/Footer/Footer";
+import IssuesManagement from "./components/IssuesManagement/IssuesManagement";
 import Navbar from "./components/Navbar/Navbar";
-import StatisticsCard from "./components/StatisticsCard/StatisticsCard";
+
+const fetchIssues = async () => {
+  const res = await fetch("/data.json");
+  return res.json();
+};
 
 function App() {
+  const fetchPromise = fetchIssues();
   return (
     <>
       <Navbar></Navbar>
 
-      <StatisticsCard></StatisticsCard>
-
-      <CustomerTicketsCard></CustomerTicketsCard>
+      <Suspense fallback={<div>Loading...</div>}>
+        {" "}
+        <IssuesManagement fetchPromise={fetchPromise}></IssuesManagement>
+      </Suspense>
 
       <Footer></Footer>
     </>
