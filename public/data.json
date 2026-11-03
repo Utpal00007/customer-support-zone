@@ -13,7 +13,7 @@
     "title": "Payment Failed",
     "description": "My payment failed, but money was deducted.",
     "customer": "Karim Hasan",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In-Progress",
     "createdAt": "2026-10-02"
   },
@@ -58,7 +58,7 @@
     "title": "Account Locked",
     "description": "My account was locked after several login attempts.",
     "customer": "Mim Akter",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In-Progress",
     "createdAt": "2026-09-30"
   },
@@ -103,7 +103,7 @@
     "title": "Duplicate Charge",
     "description": "My card was charged twice for the same order.",
     "customer": "Arif Hossain",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In-Progress",
     "createdAt": "2026-10-01"
   },

@@ -6,17 +6,25 @@ const CustomerTicketsCard = ({ item }) => {
       <div className=" shadow-md p-4 rounded-md border-1 border-gray-100  ">
         <div className="flex flex-col my-2  sm:flex-row sm:justify-between sm:items-center space-y-4">
           <h2 className="text-xl text-[#001931] font-medium">{item.title}</h2>
-          <span className="flex w-fit shrink-0 items-center gap-2 rounded-xl bg-[#B9F8CF] px-4 py-1  whitespace-nowrap">
+          <span
+            className={`flex w-fit shrink-0 items-center gap-2 rounded-xl px-4 py-1  whitespace-nowrap ${item.status === "Open" ? " bg-[#B9F8CF]" : "bg-[#F8F3B9]"}`}
+          >
             {" "}
-            <span className="h-4 w-4 shrink-0 rounded-full bg-[#02A53B]"></span>{" "}
-            Open{" "}
+            <span
+              className={`h-4 w-4 shrink-0 rounded-full ${item.status === "Open" ? " bg-[#02A53B]" : "bg-[#FEBB0C]"}`}
+            ></span>{" "}
+            {item.status}{" "}
           </span>
         </div>
         <p className="text-base text-[#627382]">{item.description}</p>
         <div className="flex justify-between items-center mt-4">
           <div className="flex gap-4 justify-start items-center">
             <h2 className="text-sm text-[#627382]">#12345</h2>
-            <span className="text-sm text-[#F83044]">HIGH PRIORITY</span>
+            <span
+              className={`text-sm ${item.priority === "High" ? "text-[#F83044]" : item.priority === "Medium" ? "text-[#FEBB0C]" : "text-[#02A53B]"}`}
+            >
+              {item.priority}
+            </span>
           </div>
           <div className="flex gap-4 justify-start items-center">
             <h2 className="text-sm text-[#627382]">{item.name}</h2>
